@@ -1,0 +1,225 @@
+
+html{
+    box-sizing: border-box;
+}
+*,::before,::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Phosphate';
+    src: url('fonts/Phosphate.woff') format('woff'),
+         url('fonts/Phosphate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/gilroy-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/gilroy-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PhosphateFixed';
+    src: url('/path/to/your/fonts/Phosphate_Fixed_Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    font-family: 'PhosphateFixed', sans-serif;
+*/
+
+*{
+    background: no-repeat;
+}
+
+    body{
+       background-color: #F9F4EE;
+
+    }
+   .color{
+    height: 984px;
+    margin: 52px 50px 0 50px;
+    background-image:url(img/Vector.jpg); 
+    background-color: #F9F4EE;
+    border-radius: 300px;
+    width: 1820px;
+}
+   .head {
+    
+}
+
+.head__flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 180px;
+}
+}
+.head__flex-items {
+    text-align: center;
+    
+}
+.logo {
+  
+}
+.head_h4 {
+    font-family: 'Gilroy';
+font-size: 32px;
+font-weight: 600;
+line-height: 38.18px;
+text-align: left;
+color: #fff;
+margin-top: 55px;
+
+}
+.head__h1 {
+      font-family: 'PhosphateFixed', sans-serif;
+    font-weight: 800;
+font-size: 60px;
+line-height: 70.27px;
+text-align: left;
+color: #fff;
+text-transform: uppercase;
+max-height: 698px;
+white-space: nowrap;
+word-spacing: -15px;
+margin-top: 52px;
+
+}
+.head__p {
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.25px;
+    text-align: left;
+    color: #fff;   
+    margin-top: 58px; 
+}
+.tochki {
+    margin-top: 24px;
+}
+.watch {
+    margin-top: 46px;
+    margin-right: 60px;
+}
+.gb {
+    margin-top: 34px;
+
+}
+.info {
+    position: absolute;
+    top: 942px;
+    left: 279px;
+}
+.conteiner {
+    width: 1362px;
+    max-height: 376px;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 100px;
+    
+}
+.info__h2 {
+    text-align: center;
+    max-width: 1220px;
+    font-family: 'Gilroy';
+font-size: 36px;
+font-weight: 600;
+line-height: 42.95px;
+letter-spacing: -0.5338494181632996px;
+text-align: center;
+padding-top: 75px;
+padding-left: 130px;
+
+
+}
+.info__p {
+text-align: center;
+margin-top: 22px;
+max-width: 1214px;
+font-family: 'Gilroy';
+font-size: 24px;
+font-weight: 400;
+line-height: 33.83px;
+letter-spacing: -0.5338494181632996px;
+text-align: center;
+padding-bottom: 90px;
+padding-left: 130px;
+}
+.duxi {
+}
+.tarakan2 {
+    position: absolute;
+    top: 1418px;
+    left: 787px;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+}
+
+
+.masha {
+    position: absolute;
+    width: 416.25px;
+height: 450.5px;
+top: 1424px;
+left: 1131.73px;
+
+
+}
+.conteiner__duxi {
+    max-width: 900px;
+    max-height: 304px;
+    border-radius: 60px;
+    background-color: #fff;
+    position: static;
+    margin-top: 440px;
+    margin-left: 392px;
+
+}
+.duxi__h3 {
+    font-family: 'Gilroy';
+font-size: 36px;
+font-weight: 600;
+line-height: 42.95px;
+letter-spacing: -0.5338494181632996px;
+text-align: center;
+padding-top: 81px;
+padding-bottom: 27px;
+
+}
+.duxi__btn {
+    background-color: #FF5722; /* Цвет фона */
+    color: white; /* Цвет текста */
+    border: none; /* Без рамки */
+    border-radius: 47px; /* Закругленные углы */
+    padding: 15px 90px; /* Внутренние отступы */
+    font-size: 36px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-family: 'PhosphateFixed', sans-serif; /* Подключенный ранее шрифт */
+    text-align: center; /* Выравнивание текста по центру */
+    transition: background-color 0.3s ease; 
+    margin-left: 200px;
+    margin-bottom: 38px;
+    margin-right: 200px;
+}
+
